@@ -18,6 +18,7 @@ class TransactionForm extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
+            
             elevation: 5,
             child: Padding(
               padding: const EdgeInsets.all(10.0),
@@ -40,7 +41,7 @@ class TransactionForm extends StatelessWidget {
                     children: [
                       TextButton(
                             child: const Text(
-                              'Nova Transação',
+                              'New Transaction',
                               style: TextStyle(
                                 color: Colors.purple,
                               ),
